@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-heading: "Sen", sans-serif;
+  --primary-color: #ffb900;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* =============== common ================*/
+
+a {
+  text-decoration: none;
+}
+
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 186px;
+  padding: 0 41px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 999px;
+  background: #171100;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+/* =============== Header ================*/
+
+.header .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 52px 0px 8px;
+}
+
+.header.fixed {
+  z-index: 1;
+  position: sticky;
+  top: -28px;
+}
+
+.header .list {
+  display: flex;
+}
+
+.header .list a {
+  padding: 20px;
+  color: #242424a9;
+  font-size: 1.6rem;
+  line-height: 1.87;
+}
+
+.header .action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .action a {
+  color: #242424a9;
+  font-size: 1.6rem;
+  line-height: 1.87;
+}
+
+.header .logo {
+  width: 100px;
+}
+
+.header .action .action-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 48px;
+  padding: 0 16px;
+  margin-left: 24px;
+  border-radius: 10px;
+  border: 1px solid #0d92b7;
+  color: #0d92b7;
+  font-weight: 600;
+}
+
+.header .action .action-item:hover {
+  color: #fff;
+  background: #0d92b7;
+}
