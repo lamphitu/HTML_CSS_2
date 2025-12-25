@@ -499,3 +499,35 @@ a {
   color: #6f6f6f;
   font-size: 1.5rem;
 }
+
+/* =============== Info ================*/
+
+.info .body {
+  margin: 82px auto 0px;
+  width: 862px;
+  height: 131px;
+}
+
+.info .big {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info .big strong {
+  color: #171100;
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.info .small {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info .small .desc {
+  margin-top: 30px;
+  color: #767e86;
+  font-size: 1.8rem;
+}
