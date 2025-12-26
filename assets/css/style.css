@@ -650,3 +650,48 @@ a {
   height: 110px;
   object-fit: cover;
 }
+
+/* =============== Admit ================*/
+
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+
+.admit .heading-lv2 {
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+
+.admit .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 1.27;
+}
+
+.admit .admit-btn {
+  width: 186px;
+  height: 68px;
+  padding: 0px 41px;
+  margin-left: 400px;
+  border-radius: 20px;
+  background: #31c4c6;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admit .admit-btn:hover {
+  opacity: 0.8;
+}
